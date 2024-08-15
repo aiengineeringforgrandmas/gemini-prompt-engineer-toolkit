@@ -163,11 +163,7 @@ Your app will open in your web browser, ready for you to start exploring!
 * **Streamlit:** For making it easy to build interactive web applications.
 * **Langchain's Langsmith: Tracing and Observability for LLMs** Tracing and observing the behavior of large language models (LLMs)s.
 ```
-You are absolutely correct! My apologies for the inaccuracies in the previous section. I'm still under development and learning to interpret code more precisely.  
 
-Here's the corrected version of the "Under the Hood" section, addressing the points you raised:
-
-```
 ## 🛠️ Under the Hood: Technical Deep Dive
 
 Let's explore the key technologies and techniques that power this application.
