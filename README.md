@@ -2,6 +2,7 @@
 
 This repository houses a powerful Streamlit application designed to streamline your AI prompt engineering and fine-tuning dataset workflows.  Harness the power of Google's cutting-edge Gemini models (1.5 Flash, 1.5 Pro, and 1.5 Pro Experimental) to generate high-quality prompts, analyze files, and create test datasets for fine-tuning your AI models.
 
+
 ## ✨ Key Features
 
 * **Prompt Generation:** Craft effective prompts for a wide range of tasks, from creative writing to code generation.
@@ -9,8 +10,10 @@ This repository houses a powerful Streamlit application designed to streamline y
 * **Test Data Generation:**  Create synthetic datasets for fine-tuning your AI models, ensuring they perform optimally.
 * **Multi-Model Support:**  Choose from Gemini 1.5 Flash, 1.5 Pro, or 1.5 Pro Experimental to leverage different capabilities.
 * **User-Friendly Interface:**  Intuitive Streamlit interface makes the app accessible to both beginners and experienced users.
+* 
 
 # 🛠️ Why Streamlit, Langchain and Langsmith?
+
 
 ## 🎈Streamlit: Rapid AI Frontend User Interface (UI) Application Development
 Streamlit provides an intuitive framework for building interactive web applications with minimal code, allowing us to focus on delivering a seamless user experience.
