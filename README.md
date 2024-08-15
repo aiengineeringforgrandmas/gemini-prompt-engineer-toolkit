@@ -28,7 +28,7 @@ Streamlit provides an intuitive framework for building interactive web applicati
 
 Langchain is a versatile framework that connects Large Language Models (LLMs) to your company's private data and APIs, enabling context-aware, reasoning applications. It offers:
 
-https://github.com/user-attachments/assets/6a730a5e-3a5e-4254-8d61-1500d0a30caf
+![1920x738-LangChain-logo-parrot-blk-text](https://github.com/user-attachments/assets/94266e6c-e626-4226-bba0-e645c51c6a5c)
 
 - 📊 Built-in ingestion and retrieval methods to augment LLM knowledge with company or user data
 - 🔗 Comprehensive integrations and state-of-the-art techniques for building Retrieval-Augmented Generation (RAG) systems
@@ -44,7 +44,7 @@ LangSmith is a tool for observing, debugging, dataset creation, cost analysis an
 
 Key features include:
 
-![1920x738-LangChain-logo-parrot-blk-text](https://github.com/user-attachments/assets/94266e6c-e626-4226-bba0-e645c51c6a5c)
+![2-Langsmith-aiengineeringforgrandmas](https://github.com/user-attachments/assets/1f68ae84-3986-4aa2-aefc-1543526698b3)
 
 
 - 🐞 Real-time debugging and performance optimization
@@ -54,8 +54,7 @@ Key features include:
 - 📊 Dataset creation for evaluations, few-shot prompting, and fine-tuning
 - 🧪 Comprehensive testing and evaluation capabilities, including AI-assisted evaluation
 
-![2-Langsmith-aiengineeringforgrandmas](https://github.com/user-attachments/assets/1f68ae84-3986-4aa2-aefc-1543526698b3)
-
+https://github.com/user-attachments/assets/6a730a5e-3a5e-4254-8d61-1500d0a30caf
 
 ## 🚀 Quickstart
 ![python](https://github.com/user-attachments/assets/14351783-eb15-424a-aff3-238707712614)
