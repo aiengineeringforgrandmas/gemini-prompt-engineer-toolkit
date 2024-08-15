@@ -49,16 +49,17 @@ https://github.com/user-attachments/assets/6a730a5e-3a5e-4254-8d61-1500d0a30caf
 
 
 ## 🚀 Quickstart
-***Download and Install Python*** 
 ![python](https://github.com/user-attachments/assets/14351783-eb15-424a-aff3-238707712614)
 
+***Download and Install Python*** 
 https://www.python.org/downloads/macos/
 
 https://www.python.org/downloads/windows/
 
 
+![Git-Logo-1788C](https://github.com/user-attachments/assets/dc07e6bd-bdb5-4622-a3e0-c7b472129502)
+
 ***Download and Install Git***
-![logo-git-transparent-bg](https://github.com/user-attachments/assets/c1b2275b-dd2c-476a-8d68-534cd0e550b2)
 
 https://git-scm.com/download/mac
 
