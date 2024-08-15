@@ -162,7 +162,6 @@ Your app will open in your web browser, ready for you to start exploring!
 * **Google Gemini:** For the powerful and versatile language models.
 * **Streamlit:** For making it easy to build interactive web applications.
 * **Langchain's Langsmith: Tracing and Observability for LLMs** Tracing and observing the behavior of large language models (LLMs)s.
-```
 
 ## 🛠️ Under the Hood: Technical Deep Dive
 
@@ -202,7 +201,6 @@ Here's a high-level overview of how the app works:
 
 This integration of Gemini, LangSmith, and Streamlit empowers you to harness the power of AI for your prompt engineering and fine-tuning tasks.
 
-```
 ## 🙌 Contributing
 
 I welcome contributions from the community! Here's how you can get involved:
@@ -244,10 +242,9 @@ We believe this project is a stepping stone towards a more accessible and powerf
 * **Contribute and Collaborate:**  Let's work together to make this project even better!
 
 Let's unlock the potential of AI together!
-```
+
 Okay, here's the final part of the README, wrapping things up with a call to action and contact information:
 
-```
 ## 🚀 Get Started Today!
 
 Ready to unleash the power of Gemini for your AI prompt engineering and fine-tuning tasks?  
@@ -281,7 +278,7 @@ We're here to support you on your AI journey.  Feel free to reach out if you enc
 We believe that AI should be accessible to everyone, regardless of their technical background.  This project is a step towards that vision.  Join us in making AI more accessible and empowering!
 
 **Happy Prompt Engineering!**
-``` 
+
 
 
 
