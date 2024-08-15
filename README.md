@@ -95,7 +95,7 @@ Scroll down on the miniconda page *** to the "Latest Miniconda installer links" 
    pip install -r requirements.txt
    ```
 
-### 2. Configure Your API Key
+### 2. Get and Save Your API Keys
 
 1. **Google Gemini API Key:**  This special key allows you to tap into Google's powerful AI model.  Get your free key at [https://https://aistudio.google.com/](https://https://aistudio.google.com/).
 
