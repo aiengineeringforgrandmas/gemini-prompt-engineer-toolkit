@@ -25,7 +25,9 @@ Streamlit provides an intuitive framework for building interactive web applicati
 
 
 ## Langchain (Langsmith): One Framework, Infinite Use Cases
+
 Langchain is a versatile framework that connects Large Language Models (LLMs) to your company's private data and APIs, enabling context-aware, reasoning applications. It offers:
+
 ![1920x738-LangChain-logo-parrot-blk-text](https://github.com/user-attachments/assets/94266e6c-e626-4226-bba0-e645c51c6a5c)
 
 - 📊 Built-in ingestion and retrieval methods to augment LLM knowledge with company or user data
@@ -33,6 +35,7 @@ Langchain is a versatile framework that connects Large Language Models (LLMs) to
 - 🔍 Langsmith
 - 🚀 Rapid prototyping and production deployment capabilities
 - 🧩 Infinite composability for creating custom AI-powered workflows
+
 https://github.com/user-attachments/assets/4e997174-05e8-43f7-a70b-24f6ea5a9fd0
 
 ## 🔍 Langsmith: LLM Application Lifecycle Management 
