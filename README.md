@@ -1,4 +1,5 @@
-# 🤖 AI Prompt Engineering (APE) & Fine-Tuning Toolkit (FTT): Powered 🚗 by Gemini 1.5 Flash - Gemini 1.5-Pro - Gemini-1.5-Pro-Exp
+# 🤖 AI Prompt Engineering (APE) & Fine-Tuning Toolkit (FTT)
+⚡Powered by Gemini 1.5 Flash - Gemini 1.5-Pro - Gemini-1.5-Pro-Exp
 
 ![1250x650-gemini-flash-pro-aug-update](https://github.com/user-attachments/assets/bcd5478c-52f4-4a5b-9793-cf54090ec0ad)
 
