@@ -30,9 +30,6 @@ Langchain is a versatile framework that connects Large Language Models (LLMs) to
 - 📊 Built-in ingestion and retrieval methods to augment LLM knowledge with company or user data
 - 🔗 Comprehensive integrations and state-of-the-art techniques for building Retrieval-Augmented Generation (RAG) systems
 - 🔍 Langsmith
-
-https://github.com/user-attachments/assets/e55484f2-543c-4ee2-ac1b-401b385791c1
-
 - 🚀 Rapid prototyping and production deployment capabilities
 - 🧩 Infinite composability for creating custom AI-powered workflows
 https://github.com/user-attachments/assets/4e997174-05e8-43f7-a70b-24f6ea5a9fd0
