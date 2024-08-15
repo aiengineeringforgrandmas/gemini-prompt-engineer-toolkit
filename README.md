@@ -31,9 +31,13 @@ https://github.com/user-attachments/assets/e55484f2-543c-4ee2-ac1b-401b385791c1
 - 🧩 Infinite composability for creating custom AI-powered workflows
 https://github.com/user-attachments/assets/4e997174-05e8-43f7-a70b-24f6ea5a9fd0
 
-## 🔍 Langsmith: LLM Application Lifecycle Management
+## 🔍 Langsmith: LLM Application Lifecycle Management 
 
-LangSmith is a tool for observing, debugging, dataset creation, cost analysis and improving your AI/LLM applications. Key features include:
+LangSmith is a tool for observing, debugging, dataset creation, cost analysis and improving your AI/LLM applications. 
+
+***Get you Langsmith API Key here https://smith.langchain.com/***
+
+Key features include:
 
 https://github.com/user-attachments/assets/6a730a5e-3a5e-4254-8d61-1500d0a30caf
 
@@ -120,7 +124,6 @@ Scroll down on the miniconda page *** to the "Latest Miniconda installer links" 
 
 2. **Run the Streamlit App:**
    ```bash
-   streamlit run v1.8-app.py
    streamlit run v1.8-gemini-prompt-engineer.py
 
    ```
