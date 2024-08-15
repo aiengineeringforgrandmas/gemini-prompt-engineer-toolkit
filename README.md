@@ -36,8 +36,6 @@ Langchain is a versatile framework that connects Large Language Models (LLMs) to
 - 🚀 Rapid prototyping and production deployment capabilities
 - 🧩 Infinite composability for creating custom AI-powered workflows
 
-https://github.com/user-attachments/assets/4e997174-05e8-43f7-a70b-24f6ea5a9fd0
-
 ## 🔍 Langsmith: LLM Application Lifecycle Management 
 
 LangSmith is a tool for observing, debugging, dataset creation, cost analysis and improving your AI/LLM applications. 
