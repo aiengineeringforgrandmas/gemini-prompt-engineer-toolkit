@@ -107,7 +107,7 @@ Scroll down on the miniconda page *** to the "Latest Miniconda installer links" 
 
 2. **Create a `.env` File:** In your project's folder, create a new text file named `.env`.
 
-2. **Add Your LANGSMITH/LANGCHAIN API Key:** Open the `.env` file and paste in your API keys:
+2. **Add Your LANGSMITH/LANGCHAIN API Key:** Open the `.env` file and paste in your Langsmith API key:
 
    ```
    LANGCHAIN_TRACING_V2=true
