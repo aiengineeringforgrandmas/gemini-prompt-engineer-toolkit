@@ -1,0 +1,14 @@
+google-generativeai 
+streamlit 
+streamlit-option-menu 
+streamlit-lottie
+streamlit-extras
+st-annotated_text
+pandas 
+Pillow 
+requests
+watchdog # macos only
+langsmith
+python-dotenv
+
+# Lanfuse # Evaluation-Tracing-Observability-Dataset-Creation
