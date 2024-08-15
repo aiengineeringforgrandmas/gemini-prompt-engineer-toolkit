@@ -52,6 +52,7 @@ https://github.com/user-attachments/assets/6a730a5e-3a5e-4254-8d61-1500d0a30caf
 ![python](https://github.com/user-attachments/assets/14351783-eb15-424a-aff3-238707712614)
 
 ***Download and Install Python*** 
+
 https://www.python.org/downloads/macos/
 
 https://www.python.org/downloads/windows/
@@ -66,7 +67,10 @@ https://git-scm.com/download/mac
 https://git-scm.com/download/win
 
 
+![png-clipart-honda-anaconda-python-data-science-honda-text-logo](https://github.com/user-attachments/assets/e399ad85-8176-4c1e-bbe3-cbc99fd600bb)
+
 ***Download and Install Conda***
+
 We recommend using `conda` for easy environment management. 
 
 Download it from [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html).
