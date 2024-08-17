@@ -15,7 +15,7 @@ This repository houses a powerful Streamlit application designed to streamline y
 * **User-Friendly Interface:**  Intuitive Streamlit interface makes the app accessible to both beginners and experienced users.
 
 
-# 🛠️ Why Streamlit, Langchain and Langsmith?
+# 🛠️ Tools: Streamlit - Langchain - Langsmith
 
 
 
