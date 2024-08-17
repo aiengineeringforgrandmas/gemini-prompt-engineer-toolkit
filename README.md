@@ -14,7 +14,7 @@ My AI Promt Engineering Toolkit is a powerful Streamlit application designed to 
 * **User-Friendly Interface:**  Intuitive Streamlit interface makes the app accessible to both beginners and experienced users.
 
 
-# 🛠️ Tools: Streamlit - Langchain - Langsmith
+# 🛠️ Tools: Streamlit - Langchain - Langsmith - Python - Conda - Git
 
 
 
