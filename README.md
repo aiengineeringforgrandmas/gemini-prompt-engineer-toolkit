@@ -1,7 +1,7 @@
 # 🤖 AI Prompt Engineering Toolkit
 ⚡Powered by Gemini 1.5 Flash - Gemini 1.5-Pro - Gemini-1.5-Pro-Experimental.  Choose from (3) Gemini Models.
 
-This repository houses a powerful Streamlit application designed to streamline your AI prompt engineering and fine-tuning dataset workflows.  Harness the power of Google's cutting-edge Gemini models (1.5 Flash, 1.5 Pro, and 1.5 Pro Experimental) to generate high-quality prompts, analyze files, and create test datasets for fine-tuning your AI models.
+My AI Promt Engineering Toolkit is a powerful Streamlit application designed to streamline your AI prompt engineering and fine-tuning dataset workflows. Harness the power of Google's cutting-edge Gemini models (1.5 Flash, 1.5 Pro, and 1.5 Pro Experimental) to generate high-quality prompts, analyze files, and create test datasets for fine-tuning your AI models. - Gregory Kennedy
 
 ![1250x650-gemini-flash-pro-aug-update](https://github.com/user-attachments/assets/bcd5478c-52f4-4a5b-9793-cf54090ec0ad)
 
