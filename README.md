@@ -89,8 +89,8 @@ Scroll down on the miniconda page *** to the "Latest Miniconda installer links" 
 
 1. **Create a secure Conda Environment:**
    ```bash
-   conda create -n gprmt-engnr python=3.12 
-   conda activate gprmt-engnr 
+   conda create -n gpe-env python=3.12 
+   conda activate gpe-env 
    ```
 
 2. **Install Dependencies:**
