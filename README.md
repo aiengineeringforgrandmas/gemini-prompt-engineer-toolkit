@@ -78,7 +78,7 @@ https://git-scm.com/download/win
 
 ***Download and Install Conda***
 
-We recommend using `conda` for easy and secure environment management. 
+We recommend using `conda` for easy and secure environment management 
 
 Download it from [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html).
 
