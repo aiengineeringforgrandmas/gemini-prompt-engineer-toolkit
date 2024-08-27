@@ -39,11 +39,11 @@ load_dotenv()
 st.set_page_config(page_title="AI Prompt Engineer", page_icon="⭕", layout="wide")
 
 # st.subheader("This is a subheader with a divider", divider="red")
-st.subheader(":blue[Gemini] AI :red[Prompt] :blue[Engineer]", divider="red")
+st.subheader(":blue[Gemini] AI :red[Prompt] :blue[Engineering] :red[Toolkit]", divider="red")
 
-st.markdown('''
-    :red[Easily] :blue[become] a :red[prompt] :blue[engineering]
-    professional''')
+#st.markdown('''
+    #:red[Easily] :blue[become] a :red[prompt] :blue[engineering]
+    #professional''')
 
 
 # Lottie Animation JSON.  Perfectly centered
@@ -86,7 +86,7 @@ def load_lottieurl(url: str):
 
 # Load Lottie animations
 lottie_ai = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_zrqthn6o.json")
-lottie_analysis = load_lottieurl("https://assets5.lottiefiles.com/private_files/lf30_wqypnpu5.json")
+lottie_analysis = load_lottieurl("https://lottie.host/d9ba37ad-3849-47f2-a3ad-a416d4e94dca/cj3SBE9cL1.json")
 
 # Initialize session state variables
 if 'temperature' not in st.session_state:
@@ -202,6 +202,7 @@ Based on the above information, generate an optimal Chain of Thought prompt:
 """
 
 @traceable # Langsmith Tracing and Observability
+
 # Function to generate prompt
 def generate_prompt(task, variables=""):
     model = genai.GenerativeModel(st.session_state.model_version)
@@ -296,7 +297,8 @@ def wait_for_files_active(files):
 
 # Main content area st.subheader("_Become_  :red[Prompt] :blue[Engineering] :red[Pro] :cyclone:")
 st.markdown('''
-    :blue[Easily] Generate Prompts :red[and] :blue[Datasets] :red[for] :blue[LLM] :red[Fine] :blue[Tuning]''')
+    :blue[Easily] :red[become] a Prompt :blue[Engineering]
+    Professional. :red[Easily] Generate Prompts :red[and] :blue[Datasets] for :blue[LLM] :red[Fine] Tuning''')
 # Horizontal menu
 selected = option_menu(
     menu_title=None,
@@ -522,7 +524,7 @@ except Exception as e:
 with st.sidebar.expander("Release Notes"):
     st.markdown("""
     
-    ### Version 1.95
+    ### Version 1.90
 
 - **Advanced File Upload and Chat:**
     - You can now upload multiple files of any type supported by Gemini.
@@ -578,7 +580,7 @@ load_static_resources()
 def initialize_session_state():
     default_values = {
         "temperature": 0.5,
-        "max_output_tokens": 8000,
+        "max_output_tokens": 8102,
         "model_version": "gemini-1.5-pro-flash",
         "api_configured": False,
         "generated_prompts": [],
