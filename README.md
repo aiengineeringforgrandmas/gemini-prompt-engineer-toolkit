@@ -1,4 +1,4 @@
-⚡Powered by Gemini 1.5 Flash - Gemini 1.5-Pro - Gemini-1.5-Pro-Experimental.  Choose from (3) Gemini Models.
+⚡Powered by Gemini 1.5 Flash - Gemini 1.5-Pro - Gemini-1.5-Pro-Experimental.
 
 ![image1 Gemini-AI Prompt Engineering Toolkit](https://github.com/user-attachments/assets/e88b1ba1-5903-4cd6-9171-0341242f7563)
 
