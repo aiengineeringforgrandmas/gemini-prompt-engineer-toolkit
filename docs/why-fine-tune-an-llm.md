@@ -1,7 +1,5 @@
 ### When to Fine-Tune an LLM:
 
-*** When to Fine-Tune an LLM ***
-
 ```mermaid
 graph LR
     A[When to Fine-Tune] --> B[Need Consistent Specific Outputs]
