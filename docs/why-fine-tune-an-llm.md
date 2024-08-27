@@ -23,7 +23,7 @@ graph LR
     style F fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
 
 ```
-*** Reasons to Fine-Tune an LLM ***
+### Reasons to Fine-Tune an LLM
 
 1. Consistency in specific outputs
    - Fine-tuning adjusts the model's internal weights, leading to more reliable and predictable responses across similar tasks
