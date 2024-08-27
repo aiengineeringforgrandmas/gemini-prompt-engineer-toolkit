@@ -1,4 +1,4 @@
-### When to Fine-Tune an LLM:
+### When to Fine-Tune an LLM?
 
 ```mermaid
 graph LR
