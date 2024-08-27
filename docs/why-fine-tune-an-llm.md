@@ -15,9 +15,9 @@ graph LR
 
 ```mermaid
 graph TD
-    A[Start] --> B[Can Prompt Designing Give Your Desired Results?]
+    A[Start] --> B[Can Prompt Engineering Give Your Desired Results?]
     
-    B --> |Yes| C[Stick with Prompt Designing]
+    B --> |Yes| C[Stick with Prompt Engineering]
     B --> |No| D[Consider Fine-Tuning]
 
     D --> E[Do You Need Consistent Specific Outputs?]
