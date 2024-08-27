@@ -2,7 +2,7 @@
 
 ![image1b Gemini AI - Prompt Engineering Toolkit](https://github.com/user-attachments/assets/f8047355-90fa-41fd-9e57-c5856633d113)
 
-The AI Prompt Engineering Toolkit is a powerful Streamlit, Python and Gemini AI powered application designed to streamline your AI prompt engineering and fine-tuning dataset workflows and to assist you in becoming a Prompt Engineeering Pro! Harness the power of Google's cutting-edge Gemini models (1.5 Flash, 1.5 Pro, and 1.5 Pro Experimental) to generate high-quality prompts, analyze files, and create synthectic datasets for fine-tuning AI models. - Gregory Kennedy
+The Gemini AI - Prompt Engineering Toolkit is a powerful Streamlit, Python and Gemini AI powered application designed to streamline your AI prompt engineering and fine-tuning dataset workflows and to assist you in becoming a Prompt Engineeering Pro! Harness the power of Google's cutting-edge Gemini models (1.5 Flash, 1.5 Pro, and 1.5 Pro Experimental) to generate high-quality prompts, analyze files, and create synthectic datasets for fine-tuning AI models. - Gregory Kennedy
 
 ![1250x650-gemini-flash-pro-aug-update](https://github.com/user-attachments/assets/bcd5478c-52f4-4a5b-9793-cf54090ec0ad)
 
