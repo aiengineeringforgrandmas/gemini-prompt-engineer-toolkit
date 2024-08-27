@@ -10,5 +10,8 @@ requests
 watchdog # macos only
 langsmith
 python-dotenv
+tiktoken
+streamlit-float
 
+PyPDF2
 # Lanfuse # Evaluation-Tracing-Observability-Dataset-Creation
