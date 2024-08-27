@@ -36,15 +36,9 @@ os.makedirs(DOCS_FOLDER, exist_ok=True)
 load_dotenv()
 
 # Streamlit app
-st.set_page_config(page_title="AI Prompt Engineer", page_icon="⭕", layout="wide")
+st.set_page_config(page_title="Gemini-AI Prompt Engineering Toolkit", page_icon="⭕", layout="wide")
 
-# st.subheader("This is a subheader with a divider", divider="red")
-st.subheader(":blue[Gemini] AI :red[Prompt] :blue[Engineering] :red[Toolkit]", divider="red")
-
-#st.markdown('''
-    #:red[Easily] :blue[become] a :red[prompt] :blue[engineering]
-    #professional''')
-
+st.markdown("<h3 style='text-align: center; color: #6590F7;'>Gemini-AI Prompt Engineering Toolkit </h3>", unsafe_allow_html=True)
 
 # Lottie Animation JSON.  Perfectly centered
 url = requests.get("https://lottie.host/9dc7375c-8c39-440b-a29f-e118a08c78f1/TCHsASemR7.json")
@@ -86,7 +80,7 @@ def load_lottieurl(url: str):
 
 # Load Lottie animations
 lottie_ai = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_zrqthn6o.json")
-lottie_analysis = load_lottieurl("https://lottie.host/d9ba37ad-3849-47f2-a3ad-a416d4e94dca/cj3SBE9cL1.json")
+lottie_analysis = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_zrqthn6o.json")
 
 # Initialize session state variables
 if 'temperature' not in st.session_state:
@@ -296,9 +290,8 @@ def wait_for_files_active(files):
     st.write()
 
 # Main content area st.subheader("_Become_  :red[Prompt] :blue[Engineering] :red[Pro] :cyclone:")
-st.markdown('''
-    :blue[Easily] :red[become] a Prompt :blue[Engineering]
-    Professional. :red[Easily] Generate Prompts :red[and] :blue[Datasets] for :blue[LLM] :red[Fine] Tuning''')
+st.markdown("<p style='text-align: center; color: #F0F0F0;'>Easily become a Prompt Engineering Professional </p>", unsafe_allow_html=True)
+
 # Horizontal menu
 selected = option_menu(
     menu_title=None,
