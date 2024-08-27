@@ -26,12 +26,13 @@ graph LR
     A -->|" "| E
     A -->|" "| F
 
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#bbf,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
-    style E fill:#bbf,stroke:#333,stroke-width:2px
-    style F fill:#bbf,stroke:#333,stroke-width:2px
+    style A fill:#007AFF,color:#FFFFFF,stroke:#FFFFFF,stroke-width:2px
+    style B fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style C fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style D fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style E fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style F fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+
 ```
 
 ### When to Fine-Tune an LLM?
