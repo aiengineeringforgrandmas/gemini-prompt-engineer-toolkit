@@ -11,7 +11,7 @@ graph LR
     A --> F[Prompt Engineering Can't Achieve Desired Results]
 ```
 
-### Decision Diagram
+### Fine-Tuning Decision Diagram
 
 ```mermaid
 graph TD
