@@ -32,7 +32,7 @@ graph TD
     G --> |Yes| I[Fine-Tune for Efficiency]
     G --> |No| H
 
-    H --> |Yes| I[Fine-Tune a SOTA model]
+    H --> |Yes| I[Fine-Tune an LLM model]
     H --> |No| C
 
 ```
