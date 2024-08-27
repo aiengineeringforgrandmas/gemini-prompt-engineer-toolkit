@@ -49,7 +49,7 @@ graph TD
     H --> |No| C
 
 ```
-### Reasons not to fine-tune
+### Reasons not to Fine-Tune an LLM
 1. When prompt engineering can achieve desired results
    - If you can get satisfactory performance through careful prompt design, fine-tuning may be unnecessary
 2. For tasks that require quick iteration and feedback
