@@ -1,4 +1,3 @@
-# 🤖 Gemini AI Prompt Engineering Toolkit
 ⚡Powered by Gemini 1.5 Flash - Gemini 1.5-Pro - Gemini-1.5-Pro-Experimental.  Choose from (3) Gemini Models.
 
 ![image1b Gemini Prompt Engineering Toolkit](https://github.com/user-attachments/assets/f8047355-90fa-41fd-9e57-c5856633d113)
