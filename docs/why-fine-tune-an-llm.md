@@ -11,6 +11,29 @@
 5. Overcoming limitations of prompt engineering
    - If you've tried structured outputs, have several examples, and are still not getting the results you're looking for, fine-tuning can force more consistent behavior across tasks
 
+```mermaid
+graph LR
+    A(["Reasons to Fine-Tune an LLM"])
+    B(["Consistency in specific outputs"])
+    C(["Handling complex or domain-specific tasks"])
+    D(["Improved token efficiency"])
+    E(["Better performance on long outputs"])
+    F(["Overcoming limitations of prompt engineering"])
+
+    A -->|" "| B
+    A -->|" "| C
+    A -->|" "| D
+    A -->|" "| E
+    A -->|" "| F
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
+    style F fill:#bbf,stroke:#333,stroke-width:2px
+```
+
 ### When to Fine-Tune an LLM?
 
 ```mermaid
