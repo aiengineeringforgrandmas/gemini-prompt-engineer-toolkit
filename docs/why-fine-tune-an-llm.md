@@ -34,19 +34,64 @@ graph LR
 4. Better performance on long outputs
    - Fine-tuning helps maintain coherence and adherence to instructions throughout longer generations
 5. Overcoming limitations of prompt engineering
-   - If you've tried structured outputs, have several examples, and are still not getting the results you're looking for, fine-tuning can force more consistent behavior across tasks
+   - If you've tried structured outputs, have several examples, and are still not getting the results you're looking for, fine-tuning can force more consistent behavior across tasks.
 
-
-### When to Fine-Tune an LLM?
+---
+### Fine-Tuning Decision Diagram
 
 ```mermaid
-graph LR
-    A[When to Fine-Tune] --> B[Need Consistent Specific Outputs]
-    A --> C[Handling Large, Complex/Domain-Specific Tasks]
-    A --> D[Want to Reduce Token Usage]
-    A --> E[Generating Long Outputs]
-    A --> F[Prompt Engineering Can't Achieve Desired Results]
+graph TD
+    A(["Start"])
+    B{{"Can Prompt Engineering Give Your Desired Results?"}}
+    C(["Stick with Prompt Engineering"])
+    D(["Consider Fine-Tuning"])
+    E{{"Do You Need Consistent Specific Outputs?"}}
+    F{{"Is the Task Complex or Domain-Specific?"}}
+    G{{"Want to Reduce Token Usage?"}}
+    H{{"Generating Long Outputs?"}}
+    I(["Fine-Tune an LLM model"])
+
+    A --> B
+    B -->|No| D
+    B -->|Yes| C
+    D --> E
+    D --> F
+    D --> G
+    D --> H
+    E -->|Yes| I
+    E -->|No| F
+    F -->|Yes| I
+    F -->|No| G
+    G -->|Yes| I
+    G -->|No| H
+    H -->|Yes| I
+    H -->|No| C
+
+    style A fill:#007AFF,color:#FFFFFF,stroke:#FFFFFF,stroke-width:2px
+    style B fill:#E4E4E6,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style C fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style D fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style E fill:#E4E4E6,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style F fill:#E4E4E6,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style G fill:#E4E4E6,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style H fill:#E4E4E6,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+    style I fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
+
+    linkStyle 0 stroke:#1D1D1F,stroke-width:1px
+    linkStyle 1 stroke:#FF3B30,stroke-width:2px
+    linkStyle 2 stroke:#34C759,stroke-width:2px
+    linkStyle 3,4,5,6 stroke:#1D1D1F,stroke-width:1px
+    linkStyle 7 stroke:#34C759,stroke-width:2px
+    linkStyle 8 stroke:#FF3B30,stroke-width:2px
+    linkStyle 9 stroke:#34C759,stroke-width:2px
+    linkStyle 10 stroke:#FF3B30,stroke-width:2px
+    linkStyle 11 stroke:#34C759,stroke-width:2px
+    linkStyle 12 stroke:#FF3B30,stroke-width:2px
+    linkStyle 13 stroke:#34C759,stroke-width:2px
+    linkStyle 14 stroke:#FF3B30,stroke-width:2px
+
 ```
+
 ### Reasons not to Fine-Tune an LLM
 1. When prompt engineering can achieve desired results
    - If you can get satisfactory performance through careful prompt design, fine-tuning may be unnecessary
@@ -54,33 +99,4 @@ graph LR
    - Fine-tuning has a longer feedback loop compared to prompt engineering, making rapid experimentation more difficult
 3. When the task doesn't require specialized knowledge
    - For general tasks where the base model's knowledge is sufficient, fine-tuning may not provide significant benefits
-
----
-### Fine-Tuning Decision Diagram
-
-```mermaid
-graph TD
-    A[Start] --> B[Can Prompt Engineering Give Your Desired Results?]
-    
-    B --> |Yes| C[Stick with Prompt Engineering]
-    B --> |No| D[Consider Fine-Tuning]
-
-    D --> E[Do You Need Consistent Specific Outputs?]
-    D --> F[Is the Task Complex or Domain-Specific?]
-    D --> G[Want to Reduce Token Usage?]
-    D --> H[Generating Long Outputs?]
-
-    E --> |Yes| I[Fine-Tune for Consistency]
-    E --> |No| F
-
-    F --> |Yes| I[Fine-Tune for Complexity]
-    F --> |No| G
-
-    G --> |Yes| I[Fine-Tune for Efficiency]
-    G --> |No| H
-
-    H --> |Yes| I[Fine-Tune an LLM model]
-    H --> |No| C
-
-```
 
