@@ -1,4 +1,4 @@
-*** WHY Fine-Tune an LLM? ***
+*** Why and When to Fine-Tune an LLM: ***
 
 ### Simple 
 
