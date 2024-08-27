@@ -36,6 +36,7 @@ graph LR
 5. Overcoming limitations of prompt engineering
    - If you've tried structured outputs, have several examples, and are still not getting the results you're looking for, fine-tuning can force more consistent behavior across tasks
 
+
 ### When to Fine-Tune an LLM?
 
 ```mermaid
@@ -46,7 +47,15 @@ graph LR
     A --> E[Generating Long Outputs]
     A --> F[Prompt Engineering Can't Achieve Desired Results]
 ```
+### Reasons not to Fine-Tune an LLM
+1. When prompt engineering can achieve desired results
+   - If you can get satisfactory performance through careful prompt design, fine-tuning may be unnecessary
+2. For tasks that require quick iteration and feedback
+   - Fine-tuning has a longer feedback loop compared to prompt engineering, making rapid experimentation more difficult
+3. When the task doesn't require specialized knowledge
+   - For general tasks where the base model's knowledge is sufficient, fine-tuning may not provide significant benefits
 
+---
 ### Fine-Tuning Decision Diagram
 
 ```mermaid
@@ -74,12 +83,4 @@ graph TD
     H --> |No| C
 
 ```
-### Reasons not to Fine-Tune an LLM
-1. When prompt engineering can achieve desired results
-   - If you can get satisfactory performance through careful prompt design, fine-tuning may be unnecessary
-2. For tasks that require quick iteration and feedback
-   - Fine-tuning has a longer feedback loop compared to prompt engineering, making rapid experimentation more difficult
-3. When the task doesn't require specialized knowledge
-   - For general tasks where the base model's knowledge is sufficient, fine-tuning may not provide significant benefits
 
----
