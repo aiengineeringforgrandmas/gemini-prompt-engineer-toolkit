@@ -1,16 +1,5 @@
 ### Reasons to Fine-Tune an LLM
 
-1. Consistency in specific outputs
-   - Fine-tuning adjusts the model's internal weights, leading to more reliable and predictable responses across similar tasks
-2. Handling complex or domain-specific tasks
-   - When your application requires deep understanding of specialized fields, fine-tuning can significantly improve performance
-3. Improved token efficiency
-   - Fine-tuned models often require shorter prompts, reducing token usage and potentially lowering costs
-4. Better performance on long outputs
-   - Fine-tuning helps maintain coherence and adherence to instructions throughout longer generations
-5. Overcoming limitations of prompt engineering
-   - If you've tried structured outputs, have several examples, and are still not getting the results you're looking for, fine-tuning can force more consistent behavior across tasks
-
 ```mermaid
 graph LR
     A(["Reasons to Fine-Tune an LLM"])
@@ -34,6 +23,18 @@ graph LR
     style F fill:#F5F5F7,color:#1D1D1F,stroke:#1D1D1F,stroke-width:1px
 
 ```
+*** Reasons to Fine-Tune an LLM ***
+
+1. Consistency in specific outputs
+   - Fine-tuning adjusts the model's internal weights, leading to more reliable and predictable responses across similar tasks
+2. Handling complex or domain-specific tasks
+   - When your application requires deep understanding of specialized fields, fine-tuning can significantly improve performance
+3. Improved token efficiency
+   - Fine-tuned models often require shorter prompts, reducing token usage and potentially lowering costs
+4. Better performance on long outputs
+   - Fine-tuning helps maintain coherence and adherence to instructions throughout longer generations
+5. Overcoming limitations of prompt engineering
+   - If you've tried structured outputs, have several examples, and are still not getting the results you're looking for, fine-tuning can force more consistent behavior across tasks
 
 ### When to Fine-Tune an LLM?
 
