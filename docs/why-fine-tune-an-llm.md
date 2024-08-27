@@ -1,6 +1,6 @@
-*** Why and When to Fine-Tune an LLM: ***
+### Why and When to Fine-Tune an LLM:
 
-### When to Fine-Tune 
+*** When to Fine-Tune an LLM ***
 
 ```mermaid
 graph LR
