@@ -480,7 +480,7 @@ elif selected == "Help":
         "How do I get an API key?": "You can obtain a Free Gemini API key by signing up at Google AI Studio https://aistudio.google.com.",
         "What file types are supported?": "The app supports all file types that the Gemini API can handle, including CSV, TXT, Markdown (MD), PDF, images, audio, and video.",
         "Is my data secure?": "Yes! Your data and API key are processed locally and not stored on any servers. Always ensure you're using the app from a trusted source.",
-        "What's the difference between the models?": "The flash model is faster and as of Aug 10, 2024 has advanced PDF unstructured text recognition, while the pro models offer larger context windows and more advanced capabilities.",
+        "What's the difference between the Aug 2024 models?": "The two new flash models are smarter and faster, while the pro models offer larger context windows and more advanced capabilities.",
         "Can I use audio, images or video with all models?": "Yes, all Gemini 1.5 models support multimodal inputs including images, audio, and video.",
         "What are the token limits?": "The flash model has an input limit of 1,048,576 tokens, while the pro models can handle up to 2,000,000 tokens. All models have an output limit of 8,192 tokens."
     }
@@ -532,7 +532,7 @@ with st.sidebar.expander("Release Notes"):
     ### Version 1.9.0 - AUG 28, 2024 Gemini Model Updates
 
 - **Advanced File Upload and Chat:**
-    - Updated to newly released AUG 28, 2024 Gemini Models.
+    - Updated to the newly released AUG 28, 2024 Gemini Models.
     - You can now upload multiple files of any type supported by Gemini.
     - The AI can analyze all uploaded files together, providing a more comprehensive analysis.
     - You can engage in a chat with the AI about the uploaded files, asking questions and getting responses based on the file content.
