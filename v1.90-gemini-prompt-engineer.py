@@ -36,14 +36,19 @@ os.makedirs(DOCS_FOLDER, exist_ok=True)
 load_dotenv()
 
 # Streamlit app
-st.set_page_config(page_title="AI Prompt Engineer", page_icon="⭕", layout="wide")
+st.set_page_config(page_title="Gemini-AI Prompt Engineering Toolkit", page_icon="⭕", layout="wide")
 
 # st.subheader("This is a subheader with a divider", divider="red")
-st.subheader(":blue[Gemini] AI :red[Prompt] :blue[Engineering] :red[Toolkit]", divider="red")
+# st.subheader(":blue[Gemini] AI :red[Prompt] :blue[Engineer]", divider="red")
+# Colors #FA4533 #FA332F #FA2D37 #6590F7
 
-#st.markdown('''
-    #:red[Easily] :blue[become] a :red[prompt] :blue[engineering]
-    #professional''')
+# Centered Header Text 
+st.markdown("<h3 style='text-align: center; color: #6590F7;'>Gemini-AI Prompt Engineering Toolkit </h3>", unsafe_allow_html=True)
+
+# Multi-Colored Header Text 
+# st.markdown('''
+    # :red[Easily] :blue[become] a :red[prompt] :blue[engineering]
+    # professional''')
 
 
 # Lottie Animation JSON.  Perfectly centered
@@ -86,7 +91,7 @@ def load_lottieurl(url: str):
 
 # Load Lottie animations
 lottie_ai = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_zrqthn6o.json")
-lottie_analysis = load_lottieurl("https://lottie.host/d9ba37ad-3849-47f2-a3ad-a416d4e94dca/cj3SBE9cL1.json")
+lottie_analysis = load_lottieurl("https://assets5.lottiefiles.com/private_files/lf30_wqypnpu5.json")
 
 # Initialize session state variables
 if 'temperature' not in st.session_state:
@@ -94,7 +99,7 @@ if 'temperature' not in st.session_state:
 if 'max_output_tokens' not in st.session_state:
     st.session_state.max_output_tokens = 8192
 if 'model_version' not in st.session_state:
-    st.session_state.model_version = "gemini-1.5-flash"
+    st.session_state.model_version = "gemini-1.5-flash-exp-0827"
 if 'api_configured' not in st.session_state:
     st.session_state.api_configured = False
 
@@ -103,7 +108,7 @@ st.sidebar.title("Settings")
 api_key = st.sidebar.text_input("Enter your Gemini API key", type="password", key="api_key_input")
 
 # Model selection
-model_options = ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.5-pro-exp-0801"]
+model_options = ["gemini-1.5-flash-exp-0827", "gemini-1.5-pro-exp-0827", "gemini-1.5-flash-8b-exp-0827"]
 st.session_state.model_version = st.sidebar.selectbox("Select Gemini model version:", model_options, index=model_options.index(st.session_state.model_version), key="model_version_select")
 
 # Temperature slider
@@ -202,7 +207,6 @@ Based on the above information, generate an optimal Chain of Thought prompt:
 """
 
 @traceable # Langsmith Tracing and Observability
-
 # Function to generate prompt
 def generate_prompt(task, variables=""):
     model = genai.GenerativeModel(st.session_state.model_version)
@@ -296,9 +300,11 @@ def wait_for_files_active(files):
     st.write()
 
 # Main content area st.subheader("_Become_  :red[Prompt] :blue[Engineering] :red[Pro] :cyclone:")
-st.markdown('''
-    :blue[Easily] :red[become] a Prompt :blue[Engineering]
-    Professional. :red[Easily] Generate Prompts :red[and] :blue[Datasets] for :blue[LLM] :red[Fine] Tuning''')
+# st.markdown('''
+    # :blue[Easily] Generate Prompts :red[and] :blue[Datasets] :red[for] :blue[LLM] :red[Fine] :blue[Tuning]''')
+
+st.markdown("<p style='text-align: center; color: #F0F0F0;'>Easily become a Prompt Engineering Professional </p>", unsafe_allow_html=True)
+
 # Horizontal menu
 selected = option_menu(
     menu_title=None,
@@ -475,7 +481,7 @@ elif selected == "Help":
         "How do I get an API key?": "You can obtain a Free Gemini API key by signing up at Google AI Studio https://aistudio.google.com.",
         "What file types are supported?": "The app supports all file types that the Gemini API can handle, including CSV, TXT, Markdown (MD), PDF, images, audio, and video.",
         "Is my data secure?": "Yes! Your data and API key are processed locally and not stored on any servers. Always ensure you're using the app from a trusted source.",
-        "What's the difference between the models?": "The flash model is faster and as of Aug 10, 2024 has advanced PDF unstructured text recognition, while the pro models offer larger context windows and more advanced capabilities.",
+        "What's the difference between the Aug 2024 models?": "The two new flash models are smarter and faster, while the pro models offer larger context windows and more advanced capabilities.",
         "Can I use audio, images or video with all models?": "Yes, all Gemini 1.5 models support multimodal inputs including images, audio, and video.",
         "What are the token limits?": "The flash model has an input limit of 1,048,576 tokens, while the pro models can handle up to 2,000,000 tokens. All models have an output limit of 8,192 tokens."
     }
@@ -524,9 +530,10 @@ except Exception as e:
 with st.sidebar.expander("Release Notes"):
     st.markdown("""
     
-    ### Version 1.90
+    ### Version 1.9.0 - AUG 28, 2024 Gemini Model Updates
 
 - **Advanced File Upload and Chat:**
+    - Updated to the newly released AUG 28, 2024 Gemini Models.
     - You can now upload multiple files of any type supported by Gemini.
     - The AI can analyze all uploaded files together, providing a more comprehensive analysis.
     - You can engage in a chat with the AI about the uploaded files, asking questions and getting responses based on the file content.
@@ -550,7 +557,7 @@ with st.sidebar.expander("Release Notes"):
     - Updated UI to include new feature in the menu
 
     ### Version 1.5.0
-    - Added support for newest Gemini 1.5 models
+    - Added support for July 2024 Gemini 1.5 models
     - Improved error handling and debugging
     - Enhanced user interface and responsiveness
     - Added FAQ section in Help
@@ -580,8 +587,8 @@ load_static_resources()
 def initialize_session_state():
     default_values = {
         "temperature": 0.5,
-        "max_output_tokens": 8102,
-        "model_version": "gemini-1.5-pro-flash",
+        "max_output_tokens": 8192,
+        "model_version": "gemini-1.5-flash",
         "api_configured": False,
         "generated_prompts": [],
         "analyzed_files": []
