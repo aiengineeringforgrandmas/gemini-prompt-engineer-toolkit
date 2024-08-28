@@ -1,10 +1,8 @@
-⚡Powered by the latest (Aug 2024) Gemini-1.5-flash-exp-0827 - Gemini-1.5-pro-exp-0827 - Gemini-1.5-flash-8b-exp-0827 Models 
-
-
-
 ![image1 Gemini Prompt Engineering Toolkit](https://github.com/user-attachments/assets/b5efbb2b-744e-43ea-b695-69b4c87528ad)
 
-The Gemini AI - Prompt Engineering Toolkit is a powerful Streamlit, Python and Gemini AI powered application designed to streamline your AI prompt engineering and fine-tuning dataset workflows and to assist you in becoming a Prompt Engineeering Pro! Harness the power of Google's cutting-edge Gemini models (1.5 Flash, 1.5 Pro, and 1.5 Pro Experimental) to generate high-quality prompts, analyze files, and create synthectic datasets for fine-tuning AI models. - Gregory Kennedy
+⚡Powered by the latest (Aug 27, 2024) Gemini-1.5-flash-exp-0827 - Gemini-1.5-pro-exp-0827 - Gemini-1.5-flash-8b-exp-0827 Models 
+
+The Gemini AI - Prompt Engineering Toolkit is a powerful Streamlit, Python and Gemini AI powered application designed to streamline your AI prompt engineering and fine-tuning dataset workflows and to assist you in becoming a Prompt Engineeering Pro! Harness the power of Google's latest (Aug 27, 2024) cutting-edge Gemini models (Gemini-1.5-flash-exp-0827, Gemini-1.5-pro-exp-0827, Gemini-1.5-flash-8b-exp-0827 Models) to generate high-quality prompts, analyze files, and create synthectic datasets for fine-tuning AI models. - Gregory Kennedy
 
 
 ![1250x650-gemini-flash-pro-aug-update](https://github.com/user-attachments/assets/bcd5478c-52f4-4a5b-9793-cf54090ec0ad)
@@ -14,7 +12,7 @@ The Gemini AI - Prompt Engineering Toolkit is a powerful Streamlit, Python and G
 * **Prompt Generation:** Craft effective prompts for a wide range of tasks, from creative writing to code generation.
 * **File Analysis:**  Gain insights from your data by uploading and analyzing CSV, TXT, Markdown (MD), and image files.
 * **Test Data Generation:**  Create synthetic datasets for fine-tuning your AI models, ensuring they perform optimally.
-* **Multi-Model Support:**  Choose from Gemini 1.5 Flash, 1.5 Pro, or 1.5 Pro Experimental to leverage different capabilities.
+* **Multi-Model Support:**  Choose from Gemini-1.5-flash-exp-0827 - Gemini-1.5-pro-exp-0827 - Gemini-1.5-flash-8b-exp-0827 Models to leverage different capabilities.
 * **User-Friendly Interface:**  Intuitive Streamlit interface makes the app accessible to both beginners and experienced users.
 
 
