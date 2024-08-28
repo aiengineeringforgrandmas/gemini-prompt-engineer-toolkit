@@ -1,4 +1,5 @@
-⚡Powered by the latest (Aug 2024) Gemini-1.5-flash-exp-0827 - Gemini-1.5-pro-exp-0827 - Gemini-1.5-flash-8b-exp-0827 Models 
+⚡Powered by the latest (Aug 2024) 
+Gemini-1.5-flash-exp-0827 - Gemini-1.5-pro-exp-0827 - Gemini-1.5-flash-8b-exp-0827 Models 
 
 ![image1 Gemini Prompt Engineering Toolkit](https://github.com/user-attachments/assets/b5efbb2b-744e-43ea-b695-69b4c87528ad)
 
