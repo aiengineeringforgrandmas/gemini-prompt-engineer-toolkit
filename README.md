@@ -102,7 +102,7 @@ Scroll down on the miniconda page *** to the "Latest Miniconda installer links" 
    LANGCHAIN_TRACING_V2=true
    LANGCHAIN_ENDPOINT="https://api.smith.langchain.com" 
    LANGCHAIN_API_KEY="your api key goes here" #
-   LANGCHAIN_PROJECT="gemini-pro-prompts"
+   LANGCHAIN_PROJECT="gem-engr"
 
    ```
 
